@@ -1,0 +1,16 @@
+Index: mytest.go
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package main\r\n\r\nimport \"fmt\"\r\n\r\nfunc main() {\r\n\tfmt.Println(\"Hello World\")\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/mytest.go b/mytest.go
+--- a/mytest.go	(revision 38e571dcc94f827833f8801119e705b0d6eafebb)
++++ b/mytest.go	(date 1777309525207)
+@@ -4,4 +4,5 @@
+ 
+ func main() {
+ 	fmt.Println("Hello World")
++	fmt.Println("Asdasdasd")
+ }
